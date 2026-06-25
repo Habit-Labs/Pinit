@@ -1,0 +1,25 @@
+{
+  "name": "pinit",
+  "version": "1.0.0",
+  "description": "Pin notes to the top of their folder in the file explorer.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "lint": "eslint src"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "monkey-around": "^2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@typescript-eslint/parser": "^8.61.0",
+    "esbuild": "0.25.5",
+    "eslint": "^9.39.4",
+    "eslint-plugin-obsidianmd": "^0.3.0",
+    "obsidian": "latest",
+    "typescript": "^5.8.3"
+  }
+}

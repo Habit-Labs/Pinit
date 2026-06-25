@@ -1,0 +1,10 @@
+{
+  "id": "pinit",
+  "name": "Pinit",
+  "version": "1.0.0",
+  "minAppVersion": "1.7.2",
+  "description": "Pin notes to the top of their folder in the file explorer, with easy reordering.",
+  "author": "Habit Labs",
+  "authorUrl": "https://github.com/Habit-Labs",
+  "isDesktopOnly": false
+}
